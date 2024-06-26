@@ -671,4 +671,32 @@ footer{
     .input-field{
         width: 100%;
     }
+	.custom-alert {
+		display: none; /* Oculto por defecto */
+		position: fixed;
+		top: 20%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		background-color: #ffffff;
+		color: #000000;
+		border: 1px solid #000000;
+		padding: 20px;
+		z-index: 1000;
+		border-radius: 5px;
+		box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+	  }
+	  
+	  .custom-alert button {
+		background-color: #000000;
+		border: none;
+		padding: 10px 20px;
+		color: #ffffff;
+		cursor: pointer;
+		margin-top: 10px;
+		border-radius: 5px;
+	  }
+	  
+	  .custom-alert button:hover {
+		background-color: #444444;
+	  }
 }
