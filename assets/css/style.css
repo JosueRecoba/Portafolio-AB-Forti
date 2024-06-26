@@ -200,11 +200,11 @@ nav{
     gap: 20px;
 }
 .featured-text-btn>.blue-btn{
-    background: #323677;
+    background: #010120;
     color: var(--color-white);
 }
 .featured-text-btn>.blue-btn:hover{
-    background: var(--first-color-hover);
+    background: #B31F2E;
 }
 .social_icons{
     display: flex;

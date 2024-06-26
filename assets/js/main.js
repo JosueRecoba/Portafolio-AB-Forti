@@ -126,6 +126,11 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 
+// JRedireccionar al hacer clic en el botón de GitHub
+document.getElementById('github-btn').addEventListener('click', function() {
+  window.location.href = 'https://github.com/DesarrolloABForti';
+});
+
 /* ----- CUSTOM ALERT FUNCTION ----- */
 function showAlert(message, type) {
   const alertBox = document.createElement('div');
